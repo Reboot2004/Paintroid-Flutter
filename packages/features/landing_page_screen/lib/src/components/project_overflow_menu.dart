@@ -41,6 +41,7 @@ class _ProjectOverFlowMenuState extends ConsumerState<ProjectOverflowMenu> {
 
     return PopupMenuButton(
       color: Theme.of(context).colorScheme.background,
+      shadowColor: Theme.of(context).colorScheme.background,
       icon: const Icon(Icons.more_vert),
       shape: RoundedRectangleBorder(
         side: const BorderSide(),

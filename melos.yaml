@@ -1,6 +1,6 @@
 name: Paintroid-Flutter
 repository: https://github.com/Catrobat/Paintroid-Flutter
-sdkPath: .fvm/flutter_sdk
+sdkPath: D:\Downloads\dartsdk-windows-x64-release (1)\dart-sdk
 
 packages:
   - packages/*

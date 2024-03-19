@@ -14,7 +14,8 @@ class IconButtonWithLabel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return (
+        Column(
       children: [
         IconButton(
           icon: icon,
@@ -25,6 +26,6 @@ class IconButtonWithLabel extends StatelessWidget {
           style: const TextStyle(fontSize: 10),
         ),
       ],
-    );
+    ));
   }
 }
